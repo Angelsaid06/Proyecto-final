@@ -75,6 +75,7 @@ export default function Home() {
   }
 
   return (
+    
     <main>
       <header className="site-header">
         <a aria-label="Manzayork, inicio" className="brand" href="#">
@@ -236,8 +237,15 @@ export default function Home() {
             </>
           )}
         </div>
+<section style={{ padding: "20px", textAlign: "center", fontSize: "14px" }}>
+  <h3>Aviso de Confidencialidad</h3>
+  <p>
+    La información proporcionada en este formulario es confidencial y será
+    utilizada únicamente para dar seguimiento a tu solicitud de prueba de
+    manejo. No será compartida con terceros.
+  </p>
+</section>
       </section>
-
       <footer className="site-footer" id="privacidad">
         <a aria-label="Manzayork, inicio" className="brand footer-brand" href="#">
           <BeachLogo /><span>manzayork</span>
