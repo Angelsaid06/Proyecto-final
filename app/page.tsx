@@ -251,7 +251,7 @@ export default function Home() {
           <BeachLogo /><span>manzayork</span>
         </a>
         <p>Un horizonte propio. © {new Date().getFullYear()} Manzayork.</p>
-        <a href="#agenda">Agenda tu prueba <span aria-hidden="true">↗</span></a>
+        <a href="#agenda">Proyecto final de la materia de ingenieria de software - Angel Said Vazquez Cisneros - 225361652 <span aria-hidden="true">↗</span></a>
       </footer>
     </main>
   );
